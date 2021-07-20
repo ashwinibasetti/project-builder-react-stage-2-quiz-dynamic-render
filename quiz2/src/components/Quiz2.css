@@ -1,0 +1,57 @@
+.heading{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.questions{
+    background-color: white;
+    width: 900px;
+    font-size: 20px;
+    padding: 20px;
+    margin:  40px auto;
+     
+}
+
+.qnumbers{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap; 
+}
+
+.answer{
+    background-color: rgb(67, 139, 199);
+    color: white;
+    padding: 10px;
+    margin:15px;
+    width: 350px;
+    border-radius: 40px;
+    
+}
+.buttons{
+    margin-bottom: 50px;
+}
+.buttons button{
+    color: white;
+    padding: 5px 10px;
+    margin-right: 20px; 
+}
+
+.prev-btn{
+    background-color: rgb(42, 42, 228);
+}
+.next-btn{
+    background-color: rgb(26, 165, 26);
+}
+.quit-btn{
+    background-color: rgb(243, 31, 31);
+}
